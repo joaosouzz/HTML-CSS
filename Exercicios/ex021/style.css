@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(56, 10, 73);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    background-image: linear-gradient(to bottom, rgb(186, 70, 202), rgb(34, 34, 123));
+    height: 90px;
+    margin: auto;
+}
+header > h1 {
+    font-family: 'cyberpunk';
+    color: white;
+    text-align: center;
+}
+nav {
+    background-color: rgb(91, 23, 91);
+}
+nav > a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background-image: linear-gradient(to top, rgb(133, 31, 192), rgb(233, 233, 31));
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-left: 5px;
+    padding: 5px;
+    box-shadow: 3px 2px 5px black;
+}
+main {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    height: auto
+}
+article > h2 {
+    background-image: linear-gradient(to right, rgb(131, 62, 131) 70%, rgb(255, 255, 0));
+    color: white;
+    font-family: 'cyberpunk';
+    padding-left: 10px;
+}
+article > p {
+    
+    padding: 10px;
+    text-align: justify;
+    
+}
+article > aside {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    width:auto
+}
+footer {
+    margin-top: 30px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 20px;
+    height: 20px;
+
+}
